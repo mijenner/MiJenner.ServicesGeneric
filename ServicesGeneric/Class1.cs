@@ -1,4 +1,4 @@
-﻿namespace ServicesGeneric
+﻿namespace MiJenner.ServicesGeneric
 {
     public class Class1
     {
