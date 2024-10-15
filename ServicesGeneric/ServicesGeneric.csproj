@@ -6,6 +6,16 @@
     <Nullable>enable</Nullable>
     <AssemblyName>MiJenner.$(MSBuildProjectName)</AssemblyName>
     <RootNamespace>MiJenner.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <Title>MiJenner.ServicesGeneric</Title>
+    <Authors>Michael Jenner</Authors>
+    <Company>JennerIT</Company>
+    <Copyright>Copyright (c) 2024 Jenner IT</Copyright>
+    <PackageProjectUrl>https://github.com/mijenner/MiJenner.ServicesGeneric</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mijenner/MiJenner.ServicesGeneric</RepositoryUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
+  </ItemGroup>
 
 </Project>
