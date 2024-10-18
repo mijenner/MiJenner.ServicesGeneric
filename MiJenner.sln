@@ -5,9 +5,13 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServicesGeneric", "ServicesGeneric\ServicesGeneric.csproj", "{2EF4614F-7A27-4F7A-978D-2BCCD4DEA441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudIdServiceDemo", "CrudIdServiceDemo\CrudIdServiceDemo.csproj", "{DBF15622-6B11-4E85-9BEC-DD328FA4321C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrudIdServiceDemo", "CrudIdServiceDemo\CrudIdServiceDemo.csproj", "{DBF15622-6B11-4E85-9BEC-DD328FA4321C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCrudIdService", "TestCrudIdService\TestCrudIdService.csproj", "{71E8067B-9DFA-43E8-811A-E072A6E485EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCrudIdService", "TestCrudIdService\TestCrudIdService.csproj", "{71E8067B-9DFA-43E8-811A-E072A6E485EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppSettingsDemoConsole", "AppSettingsDemoConsole\AppSettingsDemoConsole.csproj", "{18015053-5F46-4DBD-9E7F-59F29C2CBFF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SettingsDemo", "SettingsDemo\SettingsDemo.csproj", "{8A0B185B-4F77-4131-B676-17BE4E619364}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{71E8067B-9DFA-43E8-811A-E072A6E485EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71E8067B-9DFA-43E8-811A-E072A6E485EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71E8067B-9DFA-43E8-811A-E072A6E485EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18015053-5F46-4DBD-9E7F-59F29C2CBFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18015053-5F46-4DBD-9E7F-59F29C2CBFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18015053-5F46-4DBD-9E7F-59F29C2CBFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18015053-5F46-4DBD-9E7F-59F29C2CBFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0B185B-4F77-4131-B676-17BE4E619364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0B185B-4F77-4131-B676-17BE4E619364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0B185B-4F77-4131-B676-17BE4E619364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0B185B-4F77-4131-B676-17BE4E619364}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
