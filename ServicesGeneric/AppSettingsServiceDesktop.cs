@@ -4,10 +4,10 @@ using MiJenner.ServicesGeneric;
 using System.Diagnostics;
 
 /// <summary>
-/// AppSettingsService strives to make it easier to store application settings
+/// IAppSettingsService strives to make it easier to store application settings
 /// across Console, Maui and Web-API projects. 
 /// 
-/// AppSettingsServiceConsole has the following policy: 
+/// AppSettingsServiceDesktop has the following policy: 
 /// - Use JSON file as configuration-provider. 
 /// - Receive users folder policy (Documents, AppDataLocal, AppData (roaming), or ... 
 /// - Receive AppName and CompanyName. 
