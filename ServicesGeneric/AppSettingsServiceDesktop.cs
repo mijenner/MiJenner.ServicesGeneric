@@ -25,7 +25,7 @@ using System.Diagnostics;
 /// IConfiguration config = appSettingsService.GetConfiguration(); 
 /// 
 /// </summary>
-public class AppSettingsServiceConsole : IAppSettingsService
+public class AppSettingsServiceDesktop : IAppSettingsService
 {
     // IConfiguration object: 
     private IConfiguration configuration;
@@ -47,7 +47,7 @@ public class AppSettingsServiceConsole : IAppSettingsService
     private string appName = "appname";
     private AppSettingsFolderPolicy appSettingsFolderPolicy;
 
-    public AppSettingsServiceConsole(AppSettingsFolderPolicy appSettingsFolderPolicy, string? companyName, string? appName, string? fileName = "appsettings.json")
+    public AppSettingsServiceDesktop(AppSettingsFolderPolicy appSettingsFolderPolicy, string? companyName, string? appName, string? fileName = "appsettings.json")
     {
         // Set filename and path 
         this.fileName = (String.IsNullOrEmpty(fileName)) ? "appsettings.json" : fileName;

@@ -18,7 +18,7 @@ namespace AppSettingsDemoConsole
             Console.WriteLine("- and then use that one");
             Console.WriteLine("");
 
-            IAppSettingsService appSettingsService = new AppSettingsServiceConsole(AppSettingsFolderPolicy.PolicyAppDataLocal, "companyname", "appname", "appsettings.json"); 
+            IAppSettingsService appSettingsService = new AppSettingsServiceDesktop(AppSettingsFolderPolicy.PolicyAppDataLocal, "companyname", "appname", "appsettings.json"); 
 
             if (!appSettingsService.ConfigExists)
             {
