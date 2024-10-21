@@ -147,7 +147,7 @@ namespace MiJenner.ServicesGeneric
             }
         }
 
-        public async Task PrepareSettingsFileAsync()
+        public async Task Initialize()
         {
             string folderPath = ManagerSettings.FolderPath;
             string filePath = ManagerSettings.FilePath;

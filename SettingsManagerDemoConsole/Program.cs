@@ -19,7 +19,7 @@ namespace SettingsManagerDemoConsole
             Console.WriteLine($"    - {nameof(appSettings.ConnString)}: {appSettings.ConnString}");
 
             SettingsManager<AppSettings, UserSettings> settings = new SettingsManager<AppSettings, UserSettings>(SettingsFileName, AppName, CompanyName, folderPolicy, appSettings, userSettings);
-            await settings.PrepareSettingsFileAsync(); 
+            await settings.Initialize(); 
             
             Console.WriteLine($"Target settings file is : {settings.ManagerSettings.FilePath}");
             Console.WriteLine("*** Now let us read from file:");
